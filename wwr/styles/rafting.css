@@ -67,9 +67,10 @@ h1 {
 .hero article {
     position: absolute;
     bottom: 0;
-    width: 100%;
     background: var(--accent2-color);
     filter: drop-shadow(.1rem .3rem .1rem var(--secondary-color));
+    display: flex;
+    align-items: center;
 }
 
 .hero article img {
