@@ -14,8 +14,8 @@
 }
 
 body {
-    font-family: var(-- body-font);
-    color: var(-- accent1-color);
+    font-family: var(--body-font);
+    color: var(--accent1-color);
 }
 
 header,
@@ -66,8 +66,8 @@ h1 {
 
 .hero article {
     position: absolute;
-    bottom: 0px;
-    width: 100;
+    bottom: 0;
+    width: 100%;
     background: var(--accent2-color);
     filter: drop-shadow(.1rem .3rem .1rem var(--secondary-color));
 }
