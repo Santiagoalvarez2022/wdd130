@@ -77,3 +77,59 @@ h1 {
     width: 125px;
     float: right;
 }
+
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+header img {
+    border: solid 1px var(--accent1-color);
+    border-radius: 50%;
+    width: 150px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--accent1-color);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    border: solid 1px var(--accent1-color);
+    border-radius: 6px;
+}
+
+nav li:not(:first-child) {
+  border-left: 1px solid var(--accent1-color);
+}
+
+nav ul li {
+    padding: .5rem 1rem;
+    text-align: center;
+    border: solid 1px var(--accent1-color);
+}
+
+.history-section h2 {
+    text-align: center;
+}
+
+.history-section div {
+    display: flex;
+    align-items: center;   
+}
+
+.history-section div img {
+    width: 180px;
+}
+
