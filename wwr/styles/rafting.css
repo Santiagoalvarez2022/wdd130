@@ -25,8 +25,8 @@ footer {
     margin: 0 auto;
 }
 
-h1,
-h2 {
+.hero h1,
+.history-section h2 {
     font-size: var(--heading-font);
     color: var(--primary-color);
 }
@@ -49,7 +49,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -108,7 +108,7 @@ header nav ul {
 }
 
 header nav li:not(:first-child) {
-  border-left: 1px solid var(--accent1-color);
+    border-left: 1px solid var(--accent1-color);
 }
 
 header nav ul li {
@@ -118,7 +118,8 @@ header nav ul li {
     flex: 1 1 0;
 }
 
-.history-section h2, .adventure-section h2 {
+.history-section h2,
+.adventure-section h2 {
     font-size: 21px;
     text-align: center;
     margin-bottom: 1rem;
@@ -126,7 +127,7 @@ header nav ul li {
 
 .history-section div {
     display: flex;
-    align-items: center;   
+    align-items: center;
 }
 
 .history-section div img {
@@ -140,7 +141,7 @@ header nav ul li {
 }
 
 .adventure-section div figure {
-    text-align: center;    
+    text-align: center;
 }
 
 .adventure-section div figure img {
@@ -171,4 +172,92 @@ footer p {
 
 .socialmedia a img {
     width: 25px;
+}
+
+/* contact.html */
+.box-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.box-information p {
+    margin: 0;
+    padding: 3px;
+}
+
+.maps-form-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item {
+    display: flex;
+}
+
+.form-item label {
+    display: inline-block;
+    width: 30%;
+}
+
+.form-item input {
+    width: 70%;
+}
+
+.form-textarea textarea {
+    width: 100%;
+}
+
+.form-item input,
+.form-textarea textarea {
+    padding: .5rem;
+    margin-bottom: .5rem;
+    border-radius: 5px;
+}
+
+.container-checkbox {
+    display: flex;
+}
+
+.container-checkbox p {
+    width: 110px;
+    margin: 0;
+    padding: 0;
+}
+
+.container-checkbox div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+}
+
+.container-checkbox div label {
+    padding: .5rem 0;
+
+}
+
+.form-container input[type="radio"], .form-container input[type="checkbox"]  {
+    margin: 5px;
+}
+
+.form-container button {
+    margin-top: .2rem;
+    padding: .5rem 0;
+}
+
+.employee-profile div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.employee-profile div figure img {
+    width: 175px;
+    height: 175px;
 }
