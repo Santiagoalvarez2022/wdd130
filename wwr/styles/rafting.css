@@ -190,6 +190,15 @@ footer p {
 .maps-form-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap:1rem;
+}
+
+.maps-container {
+    display: flex;
+}
+
+.maps-container iframe {
+    width: 100%;
 }
 
 .form-container {
