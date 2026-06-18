@@ -275,6 +275,8 @@ footer p {
 /* index.html */
 .home main {
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .home section {
@@ -329,7 +331,7 @@ footer p {
     padding: 1rem 0;
 }
 
-.call-to-action a button {
+.call-to-action a {
     background: var(--accent1-color);
     color: white;
     padding: .5rem 1rem;
@@ -338,20 +340,21 @@ footer p {
     border: none;
 }
 
-.offerings_container {
+.offerings-container {
     display: flex;
     justify-content: center;
+    width: 100%;
+    padding-top: 3rem;
 }
 
-.offerings_container > div {
+.oferings-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 0 4rem;
     gap: 2rem;
     width: 70%;
 }
 
-.offerings_container img {
+.oferings-grid img {
     width: 100%;
     height: 300px;
 }
