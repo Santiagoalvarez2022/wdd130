@@ -381,6 +381,13 @@ footer p {
     border-collapse: collapse;
 }
 
+.table-container table caption {
+    background: var(--accent1-color);
+    color: var(--accent2-color);
+    padding: .5rem 0;
+    font-weight: bold;
+}
+
 .table-container table td,
 .table-container table th {
     border: solid var(--accent1-color) 1px;
