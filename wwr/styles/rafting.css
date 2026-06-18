@@ -190,7 +190,7 @@ footer p {
 .maps-form-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap:1rem;
+    gap: 1rem;
 }
 
 .maps-container {
@@ -251,7 +251,8 @@ footer p {
 
 }
 
-.form-container input[type="radio"], .form-container input[type="checkbox"]  {
+.form-container input[type="radio"],
+.form-container input[type="checkbox"] {
     margin: 5px;
 }
 
@@ -269,4 +270,122 @@ footer p {
 .employee-profile div figure img {
     width: 175px;
     height: 175px;
+}
+
+/* index.html */
+.home main {
+    width: 100%;
+}
+
+.home section {
+    margin: 2rem 0;
+    padding: 0;
+}
+
+.container-home-image {
+    position: relative;
+}
+
+.container-home-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container-home-image h1 {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    top: 20px;
+    width: 100%;
+}
+
+.container-newsletter-trip {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container-from-newsletter .form-container {
+    width: 500px;
+    margin-left: 2rem;
+}
+
+.home-trip-container {
+    background: var(--accent2-color);
+    filter: drop-shadow(.1rem .3rem .1rem var(--secondary-color));
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--accent2-color);
+    padding: 1rem 0;
+}
+
+.call-to-action a button {
+    background: var(--accent1-color);
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    border: none;
+}
+
+.offerings_container {
+    display: flex;
+    justify-content: center;
+}
+
+.offerings_container > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 4rem;
+    gap: 2rem;
+    width: 70%;
+}
+
+.offerings_container img {
+    width: 100%;
+    height: 300px;
+}
+
+/* trips.html */
+.container-types-trips div {
+    width: 100%;
+    border: solid 1px;
+    display: flex;
+    margin: 1rem 0;
+}
+
+.container-types-trips div img {
+    width: 180px;
+    height: 200px;
+}
+
+.table-container {
+    margin: 2rem;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container table td,
+.table-container table th {
+    border: solid var(--accent1-color) 1px;
+    text-align: end;
+    padding: 5px;
+}
+
+.table-container table td:first-child,
+.table-container table th:first-child {
+    text-align: center;
 }
